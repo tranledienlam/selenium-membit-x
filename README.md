@@ -6,7 +6,7 @@
 
 Vui lòng tìm đến **bài ghim** trong kênh [Telegram Channel](https://t.me/+8o9ebAT9ZSFlZGNl) để kiểm tra trước khi sử dụng.
 
-🔴 **Tool sẽ tự tải phiên bản chrome đã cài sẵn trên máy tính.**
+🔴 **Tool sẽ dùng phiên bản chrome đã cài sẵn trên máy tính.**
 
 ---
 
@@ -35,7 +35,7 @@ Vui lòng tìm đến **bài ghim** trong kênh [Telegram Channel](https://t.me/
 📌 **Trang dự án**: [hunter.membit.ai](https://hunter.membit.ai/?code=KNUHFDDF)
 
 <p align="center">
-    <img src="intro.png" alt="Giới thiệu">
+    <img src="intro.jpg" alt="Giới thiệu">
 </p>
 
 ---
@@ -60,7 +60,7 @@ Vui lòng tìm đến **bài ghim** trong kênh [Telegram Channel](https://t.me/
 ## 🔧 Yêu cầu ban đầu
 
 - **X**: Cần đăng nhập tài khoản XX
-- **Extension Membit**: Cần cài đặt thủ công extension và đăng nhập dự ánán 
+- **Extension Membit**: Cần cài đặt thủ công extension và đăng nhập dự án 
 
 Chạy tool ở chế độ Setup, thực hiện các bước cần thiết trước khi chạy chế độ Auto
 
@@ -76,7 +76,7 @@ Chạy tool ở chế độ Setup, thực hiện các bước cần thiết trư
 | `index.py`                       | File khởi chạy chương trình chính.         |
 | `config_example.txt`             | File cấu hình mẫu cho tool.                |
 | `requirements.txt`               | Danh sách các thư viện cần thiết.          |
-| `intro.png`                      | Hình ảnh giới thiệu.                       |
+| `intro.jpg`                      | Hình ảnh giới thiệu.                       |
 | `run_menu.bat`                   | Chạy code với 1 click.                     |
 | `run_hidden.vbs`                 | Chạy code với Task scheduler (window).     |
 
@@ -100,8 +100,8 @@ Chạy tool ở chế độ Setup, thực hiện các bước cần thiết trư
 
 - Ví dụ:
   ```plaintext
-  profile1|word1 ... word12|38.154.227.167:2534  // Đầy đủ
-  profile2                                       // không proxy
+  profile1|38.154.227.167:2534  // Đầy đủ
+  profile2                      // không proxy
   ```
 
 
