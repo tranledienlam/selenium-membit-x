@@ -139,7 +139,7 @@ Hầu hết trường hợp bị lỗi là do quá trình load chậm khi chạy
   - Tool sẽ ưu tiên sử dụng bot từ trên xuống
   - `ENDPOINT_URL` chỉ cần thiết khi Telegram bị chặn
 
-  👉 [Hướng dẫn lấy token TELE_BOT và ENDPOINT_URL](#1️⃣-cấu-hình-tele_bot-trong-file-tokentxt-để-theo-dõi-lỗi)
+  👉 [Hướng dẫn lấy token TELE_BOT và ENDPOINT_URL](#1️⃣-cấu-hình-tele_bot-trong-file-configtxt-để-theo-dõi-lỗi)
 
 #### 🤖 **Cấu hình AI Bot (Tool không yêu cầu. Bỏ qua)**
 - **Mục đích**: Thực hiện các chức năng đặc biệt (tool này không cần)
@@ -152,7 +152,7 @@ Hầu hết trường hợp bị lỗi là do quá trình load chậm khi chạy
   AI_BOT=AIzjSyAxmkXl_3aixsTcRAJSabUeLmzsSz0ovAg
   ```
 
-  👉 [Hướng dẫn lấy AI_BOT_TOKEN](#2️⃣-cấu-hình-ai_bot-trong-file-tokentxt-khi-tool-cần-thực-hiện-chức-năng-riêng-biệt)
+  👉 [Hướng dẫn lấy AI_BOT_TOKEN](#2️⃣-cấu-hình-ai_bot-trong-file-configtxt-khi-tool-cần-thực-hiện-chức-năng-riêng-biệt)
 
 #### 📁 **Cấu hình đường dẫn lưu profile**
 - **Mục đích**: Chỉ định nơi lưu trữ dữ liệu profile
