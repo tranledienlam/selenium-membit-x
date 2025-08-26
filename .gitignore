@@ -8,6 +8,7 @@
 # Giữ lại các file cụ thể
 !index.py
 !googl.py
+!x.py
 !w_metamask.py
 !w_bitget.py
 !browser_automation.py
