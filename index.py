@@ -72,7 +72,7 @@ class Auto:
         if not self.check_login():
             self.node.snapshot(f'Chưa login Membit')
             return
-        times = self.scroll(500) # Thay đổi số lần scroll tại đây
+        times = self.scroll(100) # Thay đổi số lần scroll tại đây
         self.node.switch_tab(f'{EXTENTION_URL}')
         self.node.snapshot(f'scroll {times} lần')
 
