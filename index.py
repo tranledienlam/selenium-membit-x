@@ -16,7 +16,7 @@ class Setup:
         
     def _run(self):
         self.X_Setup._run()
-        self.node.new_tab(f'https://hunter.membit.ai/?code=KNUHFDDF', method="get", wait=1)
+        self.node.new_tab(f'https://hunter.membit.ai/?code=KVHJNCGV', method="get", wait=1)
         Utility.wait_time(10)
 
 class Auto:
@@ -85,7 +85,6 @@ if __name__ == '__main__':
 
     profiles = Utility.read_data('profile_name', 'email', 'pwd_email')
     max_profiles = Utility.read_config('MAX_PROFLIES')
-    max_profiles = max_profiles[0] if max_profiles else 4
     
     if not profiles:
         print("Không có dữ liệu để chạy")

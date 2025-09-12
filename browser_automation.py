@@ -1585,6 +1585,16 @@ class BrowserManager:                                                           
         if not sys_chrome:
             self.path_chromium = Chromium().path
         is_run = True
+        try:
+            if isinstance(max_concurrent_profiles, list):
+                max_concurrent_profiles = int(max_concurrent_profiles[0]) if max_concurrent_profiles else 4
+            else:
+                max_concurrent_profiles = int(max_concurrent_profiles)
+        except (ValueError, TypeError):
+            print(f'❌ Không thể đọc dữ liệu: (Sử dụng mặc định: 4)')
+            for text in max_concurrent_profiles:
+                print(f'    MAX_PROFLIES={text}')
+            max_concurrent_profiles = 4
 
         print("\n"+"=" * 60)
         print(f"⚙️  Tool Automation Airdrop đang sử dụng:")
