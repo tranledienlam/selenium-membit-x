@@ -16,7 +16,7 @@ class Setup:
         
     def _run(self):
         self.X_Setup._run()
-        self.node.new_tab(f'https://hunter.membit.ai/?code=KVHJNCGV', method="get", wait=1)
+        self.node.new_tab(f'https://hunter.membit.ai/?code=RFLISOQQ', method="get", wait=1)
         Utility.wait_time(10)
 
 class Auto:
