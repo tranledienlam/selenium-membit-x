@@ -1,3 +1,4 @@
+python==3.13.0
 requests==2.32.4
 screeninfo==0.8.1
 pillow==11.2.1

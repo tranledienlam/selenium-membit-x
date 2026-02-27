@@ -10,7 +10,7 @@ if exist "config.txt" (
         set VENV_PATH=%%b
     )
 )
-
+set VENV_PATH=E:\venv\dev\Scripts\python.exe
 REM Kiểm tra và thiết lập Python path
 if not "%VENV_PATH%"=="" (
     REM Có đường dẫn từ config, kiểm tra tồn tại
